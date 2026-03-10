@@ -78,7 +78,7 @@ public class KuisNayla {
             for(int i = 0; i < jumlah; i++){
                 Pengiriman p = daftaPengiriman[i];
                 System.out.println("Resi Paket  :" + p.getResi());
-                System.out.println("Alamat Tujuan :" + p.getAlamat());
+                System.out.println("Alamat Tujuan :" + p.getInfoAlamat());
                 System.out.println("Total Biaya   :" + p.hitungHarga());
                 
                 if(p instanceof LayananPremium){
@@ -92,3 +92,4 @@ public class KuisNayla {
     }
     
 }
+
